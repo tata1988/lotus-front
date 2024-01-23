@@ -1,0 +1,91 @@
+.search {
+    padding: 30px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    color: #FFE300;
+    font-size: 48px;
+}
+
+.form {
+    display: flex;
+    gap: 50px;
+    padding: 40px 0;
+    min-width: 560px;
+    margin: 0 auto;
+}
+
+.input {
+        
+    padding: 15px 18px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #FFE300;
+    border-radius: 17px;
+    color: #161516;
+    font-size: 16px;
+
+}
+
+.btn {
+    min-width: 150px;
+    min-height: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #FFE300;
+    background: linear-gradient(#F3AE0F, #FFE300) #eecb31;
+
+}
+
+.btn:hover {
+    background: linear-gradient(#f5ae00, #f5f100) #f5ae00; 
+}
+
+.btn:active {
+    background: linear-gradient(#f59500, #f5c800) #f59500;
+}
+
+.btn_margin {
+    margin: 0 auto;
+}
+
+.list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    height: calc(100vh - 235px);
+    overflow-x: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.thead {
+  border-bottom: 2px solid black;
+  background-color: #eee;
+}
+
+  .tbody {
+    background-color: #FFFFFF;
+  }
+
+  .message {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
